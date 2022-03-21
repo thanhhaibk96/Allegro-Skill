@@ -1,0 +1,117 @@
+#axlFormTest("proView.form")
+FILE_TYPE=FORM_DEFN VERSION=2
+FORM 
+FIXED
+PORT 47 25
+HEADER "QA Check Application"
+POPUP <FUNCTIONS>"All""All","CCIX/PCIE""CCIX/PCIE","I2C""I2C","SPI""SPI","CLK/XTAL/OSC""CLK/XTAL/OSC","UART""UART". 
+
+    TILE
+
+		TEXT "This Skill Filter Nets Following Function In PCB" 
+		OPTIONS BOLD
+		TLOC 2 1
+		ENDTEXT
+		
+        GROUP Function
+		FLOC 2 3
+		FSIZE 27 5
+		INFO group
+		ENDGROUP
+
+            TEXT "Select" 
+			TLOC 5 5
+			ENDTEXT
+
+            #drop down box
+			FIELD function
+			FLOC 10 5
+			ENUMSET 12
+			POP "FUNCTIONS"
+			ENDFIELD
+
+        GROUP Mode
+		FLOC 30 3
+		FSIZE 16 5
+		INFO group
+		ENDGROUP
+
+            #radio button
+			FIELD single_ended
+			FLOC 32 5
+			CHECKLIST "Single" "radio_mode"
+			ENDFIELD
+            
+            FIELD diff
+			FLOC 40 5
+			CHECKLIST "Diff" "radio_mode"
+			ENDFIELD
+
+		GROUP "Net Name"
+		FLOC 2 8
+		FSIZE 27 16
+		INFO group
+		ENDGROUP
+
+            TEXT "Search" 
+			TLOC 3 10
+			ENDTEXT
+
+			#TextBox
+			FIELD search_net_name
+			FLOC 9 10
+			STRFILLIN 17 17
+			ENDFIELD
+
+            #list
+			FIELD net_name
+			FLOC 3 13
+			LIST "" 25 6
+			OPTIONS multiselect prettyprint
+			ENDFIELD
+
+        GROUP "Layer Name"
+		FLOC 30 8
+		FSIZE 16 16
+		INFO group
+		ENDGROUP
+
+            #list
+			FIELD layer_name
+			FLOC 31 10
+			LIST "" 14 7
+			OPTIONS multiselect prettyprint
+			ENDFIELD
+
+		GROUP "Detail"
+		FLOC 2 24
+		FSIZE 44 10
+		INFO group
+		ENDGROUP
+
+			TEXT "Net: " net_name_label
+			TLOC 3 26
+			FSIZE 42 8
+			OPTIONS PRETTYPRINT
+			ENDTEXT
+
+        #button
+		FIELD close_form
+		FLOC  9 35
+		MENUBUTTON "Done" 10 3
+		ENDFIELD
+
+		FIELD dehighlight
+		FLOC 29 35
+		MENUBUTTON "Dehighlight" 10 3
+		ENDFIELD
+
+		#This is just to add bottom padding
+		GROUP ""
+		FLOC 1 36
+		FSIZE 0 1
+		ENDGROUP	
+
+    ENDTILE
+
+ENDFORM

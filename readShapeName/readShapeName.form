@@ -1,0 +1,69 @@
+FILE_TYPE=FORM_DEFN VERSION=2
+FORM 
+FIXED
+PORT 49 12
+HEADER "Export Shape Name"
+
+    TILE
+
+		TEXT "This Skill Exports All Shape Name In PCB" 
+		OPTIONS BOLD
+		TLOC 2 1
+		ENDTEXT
+		
+		GROUP Shape Name
+		FLOC 2 3
+		FSIZE 27 16
+		INFO group
+		ENDGROUP
+			
+			TEXT "Search" 
+			TLOC 3 5
+			ENDTEXT
+
+			#TextBox
+			FIELD search_shape_name
+			FLOC 10 5
+			STRFILLIN 16 16
+			ENDFIELD
+
+			#list
+			FIELD shape_name
+			FLOC 3 8
+			LIST "" 25 6
+			OPTIONS prettyprint
+			ENDFIELD
+
+		GROUP Layer Name
+		FLOC 30 3
+		FSIZE 18 16
+		INFO group
+		ENDGROUP
+
+			#list
+			FIELD layer_name
+			FLOC 31 5
+			LIST "" 16 7
+			OPTIONS multiselect prettyprint
+			ENDFIELD
+
+		#button
+		FIELD close_form
+		FLOC  10 20
+		MENUBUTTON "Done" 10 3
+		ENDFIELD
+
+		FIELD dehighlight
+		FLOC 34 20
+		MENUBUTTON "Dehighlight" 10 3
+		ENDFIELD
+		
+		#This is just to add bottom padding
+		GROUP ""
+		FLOC 1 22
+		FSIZE 0 1
+		ENDGROUP	
+
+    ENDTILE
+
+ENDFORM
