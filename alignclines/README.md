@@ -5,10 +5,10 @@
   This skill has already been tested on Allegro 17.2 and 17.4
   
  ## Installation
-   **1.** Copy *alignclines_v2.ile* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/skill/
-   **2.** Open *allegro.ilinit* then copy this command *load "alignclines_v2.ile" "123qweasd"* into your file 
-   *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables*
-   *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- load "alignclines_v2.ile" ; [yourShortcutKey]*
+   **1.** Copy *alignclines_v2.ile* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/skill/ \
+   **2.** Open *allegro.ilinit* then copy this command *load "alignclines_v2.ile" "123qweasd"* into your file \
+   *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables* \
+   *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- load "alignclines_v2.ile" ; [yourShortcutKey]* \
 ![image](https://user-images.githubusercontent.com/64115895/159394913-c0b9f4e2-697f-4eee-a002-c5a9bad49165.png)
 
  ## Before running the script
