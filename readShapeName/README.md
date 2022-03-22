@@ -15,7 +15,7 @@
    **5.** To run the skill, type `read_shape_name` or  `rsn` in command box\
    ![image](https://user-images.githubusercontent.com/64115895/159395511-764a7081-957e-4277-89ff-a0c5de4f153b.png)
    
-## Form
+## Screenshot
 ![Form_2](https://user-images.githubusercontent.com/64115895/159330333-0f60a936-d320-4874-b7af-1b0fdf578a59.JPG)
 
  ## Documentation
