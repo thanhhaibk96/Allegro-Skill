@@ -9,7 +9,8 @@
    **2.** Open *allegro.ilinit* then copy this command *load "alignclines_v2.ile" "123qweasd"* into your file \
    *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables* \
    *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- load "alignclines_v2.ile" ; [yourShortcutKey]* \
-![image](https://user-images.githubusercontent.com/64115895/159394913-c0b9f4e2-697f-4eee-a002-c5a9bad49165.png)
+\ ![image](https://user-images.githubusercontent.com/64115895/159395511-764a7081-957e-4277-89ff-a0c5de4f153b.png)
+
 
  ## Before running the script
 ![align_before](https://user-images.githubusercontent.com/64115895/159329037-60d0e06c-7a42-4362-9108-58e07df2a98c.JPG)
