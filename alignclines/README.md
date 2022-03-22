@@ -9,7 +9,7 @@
    **2.** Open *allegro.ilinit* then copy this command `load "alignclines_v2.ile" "123qweasd"` into your file \
    *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables (Picture bewlow)* \
    *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- `load "alignclines_v2.ile" ; [yourShortcutKey]`*  or by config alias in env file -- `alias ac	align_clines`\
-   *Example: `load "alignclines_v2.ile" ;ac`*
+   *Example: `load "alignclines_v2.ile" ;ac`* \
    **3.** Restart your Allegro Software \
    **4.** To run the skill, type `align_clines` or  `ac` in command box\
    ![image](https://user-images.githubusercontent.com/64115895/159395511-764a7081-957e-4277-89ff-a0c5de4f153b.png)
