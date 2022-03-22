@@ -17,7 +17,7 @@
    
    ![image](https://user-images.githubusercontent.com/64115895/159395511-764a7081-957e-4277-89ff-a0c5de4f153b.png)
    
-## Form 
+## Screenshot
 ![Form](https://user-images.githubusercontent.com/64115895/159330122-295444fe-d9b8-4d18-9ade-caad34969af8.JPG)
 
  ## Documentation
