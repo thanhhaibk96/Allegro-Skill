@@ -9,5 +9,13 @@
  ## After running the script
 ![align_after](https://user-images.githubusercontent.com/64115895/159329064-7f70ad2c-a0de-449e-9cb5-899c45de1234.JPG)
 
+ ## Installation
+ 
+ ## Documentation
+ *  "Skill Language User Guide", Link: http://pwp.gatech.edu/wp-content/uploads/sites/367/2016/03/Intro_to_skill_prog.pdf
+ *  "Reference Designer Tutorials", Link: http://www.referencedesigner.com/tutorials/index.php
+ *  "allegro-script-add_layer_name", Link: https://github.com/FEDEVEL/allegro-script-add_layer_name
+ *  "Form Interface Functions", Link: file:///[YourInstallationDirection]/SPB_17.2/doc/algroskill/11frmint.html
+ *  "Allegro Skill Example": Link: folder:///[YourInstallationDirection]/SPB_17.2/doc/algroskill/
  ## Contact
  Email: thanhhaipif96@gmail.com
