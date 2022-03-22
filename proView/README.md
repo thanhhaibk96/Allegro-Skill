@@ -13,7 +13,7 @@
    *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- `load "proView.ile" "123qweasd"	 ; [yourShortcutKey]`*  or by configuring alias in env file -- `alias pv	pro_view`\
    *Example: `load "proView.ile" "123qweasd" ;pv`* \
    **4.** Restart your Allegro Software \
-   **5.** To run the skill, type `pro_view` or  `pv` in command box \
+   **5.** To run the skill, type `pro_view` or  `pv` in command box 
    
    ![image](https://user-images.githubusercontent.com/64115895/159395511-764a7081-957e-4277-89ff-a0c5de4f153b.png)
    
