@@ -1,19 +1,20 @@
 # Filter Nets Following Functions: CCIX/PCIe, I2C, SPI, UART, CLK/XTAL/OSC
 
 ## Instruction
-  read_Shape_Name Skill will automatically help you filter out all shapes in your PCB then list them in the form for easily access. This skill is very helpful when you do QA process\
+  proView Skill will automatically help you filter out all nets following functions such as: CCIX/PCIe, I2C, SPI, UART, CLK/XTAL/OSC
+ in your PCB then list them in the form for easily access. This skill is very helpful when you do QA process\
   This skill has already been tested on Allegro 17.2
   
  ## Installation and Using
-   **1.** Copy *readShapeNamev2.0.ile* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/skill/ \
-   **2.** Copy *readShapeNamev2.0.ile* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/skill/ \
-   **3.** Open *allegro.ilinit* then copy this command `load "readShapeNamev2.0.ile" "123qweasd"` into your file \
+   **1.** Copy *proView.ile* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/skill/ \
+   **2.** Copy *proView.form* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/forms/ \
+   **3.** Open *allegro.ilinit* then copy this command `load "proView.ile" "123qweasd"` into your file \
    *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables (Picture bewlow)* \
-   *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- `load "readShapeNamev2.0.ile" "123qweasd"	 ; [yourShortcutKey]`*  or by configuring alias in env file -- `alias rsn	read_shape_name`\
-   *Example: `load "readShapeNamev2.0.ile" "123qweasd" ;rsn`* \
+   *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- `load "proView.ile" "123qweasd"	 ; [yourShortcutKey]`*  or by configuring alias in env file -- `alias pv	pro_view`\
+   *Example: `load "proView.ile" "123qweasd" ;pv`* \
    **4.** Restart your Allegro Software \
-   **5.** To run the skill, type `read_shape_name` or  `rsn` in command box\
-   **6.** The skill  \
+   **5.** To run the skill, type `pro_view` or  `pv` in command box\
+   
    ![image](https://user-images.githubusercontent.com/64115895/159395511-764a7081-957e-4277-89ff-a0c5de4f153b.png)
    
 ## Form 
