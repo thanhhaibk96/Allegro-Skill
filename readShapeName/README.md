@@ -8,7 +8,7 @@
    **1.** Copy *readShapeNamev2.0.ile* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/skill/ \
    **2.** Copy *readShapeName.form* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/form/ \
    **3.** Open *allegro.ilinit* then copy this command `load "readShapeNamev2.0.ile" "123qweasd"` into your file \
-   *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables (Picture bewlow)* \
+   *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables (Picture below)* \
    *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- `load "readShapeNamev2.0.ile" "123qweasd"	 ; [yourShortcutKey]`*  or by configuring alias in env file -- `alias rsn	read_shape_name`\
    *Example: `load "readShapeNamev2.0.ile" "123qweasd" ;rsn`* \
    **4.** Restart your Allegro Software \
