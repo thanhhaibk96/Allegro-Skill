@@ -9,7 +9,7 @@
    **1.** Copy *proView.ile* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/skill/ \
    **2.** Copy *proView.form* file into: folder:///[YourInstallationDirection]/SPB_17.2/share/local/pcb/forms/ \
    **3.** Open *allegro.ilinit* then copy this command `load "proView.ile" "123qweasd"` into your file \
-   *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables (Picture bewlow)* \
+   *Note1: You can locate your allegro.ilinit by searching "HOME"" variable in Environment Variables (Picture below)* \
    *Note2: You can create shortcut key for easily running by adding command into allegro.ilinit that following systax -- `load "proView.ile" "123qweasd"	 ; [yourShortcutKey]`*  or by configuring alias in env file -- `alias pv	pro_view`\
    *Example: `load "proView.ile" "123qweasd" ;pv`* \
    **4.** Restart your Allegro Software \
