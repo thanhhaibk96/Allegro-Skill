@@ -15,7 +15,9 @@
    **5.** The skill asks you pick 2 points to create rectangle box which contains clines you want to align \
    ![image](https://user-images.githubusercontent.com/64115895/159395511-764a7081-957e-4277-89ff-a0c5de4f153b.png)
 
-
+ ## New Updates
+   * Add NEW Undo Process
+   * Modify Cancel Process
  ## Before running the script
 ![align_before](https://user-images.githubusercontent.com/64115895/159329037-60d0e06c-7a42-4362-9108-58e07df2a98c.JPG)
 
